@@ -19,7 +19,7 @@ assetsSummary:
   species: []
   variableMeasured: []
 citation: SALIDO, EZEQUIEL (2026) SalidoLab 2024.Genes paper. WVU humans with IMPG1/2
-  mutations (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001882/draft
+  mutations (Version 0.260701.1757) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001882/0.260701.1757
 contributor:
 - affiliation: []
   email: ezequiel.salido@hsc.wvu.edu
@@ -29,6 +29,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-06-30T16:42:35.723711+00:00'
+datePublished: '2026-07-01T17:57:44.110122+00:00'
 description: 'This Dandiset contains the curated, public-domain scientific data evaluating
   the phenotypic, genotypic, and structural impacts of mutations in the interphotoreceptor
   matrix proteoglycans 1 and 2 (IMPG1 and IMPG2). The data directly supports the findings
@@ -38,8 +39,9 @@ description: 'This Dandiset contains the curated, public-domain scientific data 
   Jan 1;16(1):43. doi: 10.3390/genes16010043. PMID: 39858590; PMCID: PMC11764596.",
   which establishes the clinical presentations and estimated prevalence of these rare
   variants within an inherited retinal dystrophy (IRD) patient population.'
+doi: 10.48324/dandi.001882/0.260701.1757
 ethicsApproval: []
-id: DANDI:001882/draft
+id: DANDI:001882/0.260701.1757
 identifier: DANDI:001882
 keywords:
 - IMPG1
@@ -48,12 +50,24 @@ keywords:
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001882/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001882/0.260701.1757/assets.yaml
 name: SalidoLab 2024.Genes paper. WVU humans with IMPG1/2 mutations
+publishedBy:
+  endDate: '2026-07-01T17:57:44.110122+00:00'
+  id: urn:uuid:38e467e1-140d-4958-94b0-aed5bfd1dffb
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-07-01T17:57:44.110122+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:26718e03-d428-4605-9325-83c2f51e4151
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001882/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001882/0.260701.1757
+version: 0.260701.1757
 wasGeneratedBy: []
