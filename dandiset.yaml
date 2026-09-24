@@ -3,7 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/DOID_10584
+  name: retinitis pigmentosa
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/DOID_0050661
+  name: vitelliform macular dystrophy
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000966
+  name: retina
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -21,13 +30,36 @@ assetsSummary:
 citation: SALIDO, EZEQUIEL (2026) SalidoLab 2024.Genes paper. WVU humans with IMPG1/2
   mutations (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001882/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/011vxgd24
+    name: West Virginia University
+    schemaKey: Affiliation
   email: ezequiel.salido@hsc.wvu.edu
+  identifier: 0000-0003-3741-3389
   includeInCitation: true
   name: SALIDO, EZEQUIEL
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
+- awardNumber: R01 EY036475
+  identifier: https://ror.org/03wkg3b53
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U54GM104942
+  identifier: https://ror.org/04q48ey07
+  name: National Institute of General Medical Sciences
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: P20GM144230
+  identifier: https://ror.org/04q48ey07
+  name: National Institute of General Medical Sciences
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-06-30T16:42:35.723711+00:00'
 description: 'This Dandiset contains the curated, public-domain scientific data evaluating
   the phenotypic, genotypic, and structural impacts of mutations in the interphotoreceptor
@@ -45,12 +77,22 @@ keywords:
 - IMPG1
 - IMPG2
 - 'humans '
+- inherited retinal dystrophy
+- interphotoreceptor matrix proteoglycan
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001882/versions/draft/assets/
 name: SalidoLab 2024.Genes paper. WVU humans with IMPG1/2 mutations
-relatedResource: []
+relatedResource:
+- identifier: doi:10.3390/genes16010043
+  name: Prevalence of IMPG1 and IMPG2 Mutations Leading to Retinitis Pigmentosa or
+    Vitelliform Macular Dystrophy in a Cohort of Patients with Inherited Retinal Dystrophies
+  relation: dcite:IsDescribedBy
+  repository: Genes
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.3390/genes16010043
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
